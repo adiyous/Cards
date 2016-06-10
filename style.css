@@ -1,0 +1,58 @@
+.container {
+
+}
+.first {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 5px grey;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.big {
+  opacity: 0.4;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 180px;
+  font-size: 50px;
+  color: white;
+}
+.london {
+  background-image: url("http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.nyc {
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/times-square-nyc-melanie-viola.jpg");
+  background-size: cover;
+  display: inline-block;
+}
+
+.paris {
+  background-image: url("http://w9lgeeo8yk1vk0pe3bkz9g12.wpengine.netdna-cdn.com/wp-content/uploads/2013/10/paris-vertical-.jpg");
+  background-size: cover;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: white;
+  margin: 20px;
+}
+
+.flip {
+  transition: width 2s, height 2s, transform 2s;
+  transform: rotateY(180deg);
+}
